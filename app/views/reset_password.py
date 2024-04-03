@@ -78,6 +78,7 @@ async def reset_password(new_password: str = Query(..., description="New Passwor
     
     # Remove leading and trailing whitespace from the new password
     new_password = new_password.strip()
+    print(new_password)
 
     # Check if the new password is empty
     if not new_password:

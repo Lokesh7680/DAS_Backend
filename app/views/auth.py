@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from pymongo import MongoClient
 from app.config import Settings
 from fastapi.security import OAuth2PasswordBearer
-import jwt
+# import jwt
 import json
 from app.utils.jwt import create_access_token
 import hashlib
