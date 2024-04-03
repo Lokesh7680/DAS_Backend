@@ -27,11 +27,12 @@ def send_email(receiver_email: str, subject: str, body: str):
     smtp_port = 587
     # smtp_username = "apikey"
     smtp_username = "neelapulokeshreddy0510@gmail.com"
-    import os
+    smtp_password= "hjwv qjtm zkzv tvrb"
+#     import os
 
-# Access environment variable
-    smtp_password = os.environ['SMTP_PASSWORD']
-    print(smtp_password)
+# # Access environment variable
+#     smtp_password = os.environ['SMTP_PASSWORD']
+#     print(smtp_password)
     email_from = "neelapulokeshreddy0510@gmail.com"
     mail_starttls = True
     use_credentials = True
